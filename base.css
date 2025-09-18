@@ -1,0 +1,16 @@
+:root{
+  --brand-blue:#0047FF;
+  --brand-gold:#FFD160;
+  --text:#0B1220;
+  --text-inv:#ffffff;
+  --glass-1:rgba(255,255,255,.10);
+  --glass-2:rgba(255,255,255,.08);
+  --glass-3:rgba(255,255,255,.06);
+  --glass-bd:rgba(255,255,255,.22);
+
+  --nav-top:28px;
+  --nav-h:68px;
+  --nav-gap:16px;
+  --logo-h:48px;
+}
+html{ scroll-padding-top: calc(var(--nav-top) + var(--nav-h) + 8px); }
